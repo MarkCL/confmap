@@ -26,7 +26,9 @@ in your project main.rs:
 use confmap;
 
 fn main() {
-    confmap::add_config_path(path_str);
+    // if you don't call add_config_path method or the path_str is not exist, 
+    // it will scan the folder where the executable file is located.
+    confmap::add_config_path(path_str); 
     confmap::set_config_name("config.json");
     confmap::read_config();
     assert_eq!(Some("YesMan".to_string()), confmap::get_string("testGetString"));
