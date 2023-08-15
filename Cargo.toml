@@ -3,6 +3,7 @@ name = "confmap"
 version = "1.0.0"
 authors = ["Cheng-Lung Wu <single1982@gmail.com>"]
 license = "MIT/Apache-2.0"
+description = "A library for reading config file into a map in memory. The idea is the same to viper package in golang"
 repository = "https://github.com/MarkCL/confmap.git"
 edition = "2021"
 
