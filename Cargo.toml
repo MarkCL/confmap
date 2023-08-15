@@ -6,6 +6,7 @@ license = "MIT/Apache-2.0"
 description = "A library for reading config file into a map in memory. The idea is the same to viper package in golang"
 repository = "https://github.com/MarkCL/confmap.git"
 edition = "2021"
+exclude = [".DS_Store", ".gitignore", ".idea/confmap.iml", ".idea/vcs.xml", ".idea/.gitignore", ".idea/workspace.xml", ".idea/modules.xml", ".idea/git_toolbox_prj.xml"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
