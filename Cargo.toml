@@ -1,0 +1,21 @@
+[package]
+name = "confmap"
+version = "1.0.0"
+authors = ["Cheng-Lung Wu <single1982@gmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/MarkCL/confmap.git"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json="1.0.104"
+once_cell="1.18.0"
+
+[lib]
+name = "confmap"
+path = "src/lib.rs"
+
+[dependencies.confmap]
+path = "."
+version = "1.0.0"
